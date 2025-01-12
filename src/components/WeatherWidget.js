@@ -8,9 +8,9 @@ const WeatherWidget = () => {
         border: "1px solid #ddd",
         borderRadius: "5px",
         background: "#ffcccb",
+        height: "85%", // 그리드 높이에 맞춤
       }}
     >
-      {/* 드래그 핸들 */}
       <div
         className="draggable-handle"
         style={{
@@ -21,9 +21,7 @@ const WeatherWidget = () => {
       >
         Weather
       </div>
-      <h3>Seoul</h3>
-      <p>Sunny</p>
-      <p>25°C</p>
+      Seoul
     </div>
   );
 };

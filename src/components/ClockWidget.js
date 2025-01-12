@@ -18,6 +18,7 @@ const ClockWidget = () => {
         border: "1px solid #ddd",
         borderRadius: "5px",
         background: "#d5f4e6",
+        height: "85%", // 그리드 높이에 맞춤
       }}
     >
       {/* 드래그 핸들 */}
